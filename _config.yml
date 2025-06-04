@@ -1,1 +1,8 @@
+title: Zerokoollabs
+author: zerokoollabs
+description: Cybersecurity labs and detours
+theme: minima
+
+plugins:
+  - jekyll-feed
 site config
