@@ -1,4 +1,4 @@
-___
+---
 layout: post
 title: "AES Detour"
 date: 2025-06-04
