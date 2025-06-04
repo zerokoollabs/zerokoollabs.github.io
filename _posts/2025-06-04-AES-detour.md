@@ -1,6 +1,6 @@
 ___
 layout: post
-title: "AES Detour: What mssqlclient.py's -aesKey Option Taught Me"
+title: "AES Detour"
 date: 2025-06-04
 author: zerokoollabs
 tags: [kerberos, impacket, aes, redteam, htb]
