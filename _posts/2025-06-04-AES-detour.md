@@ -64,7 +64,7 @@ print([hex(b) for b in key.contents]) # Make it more recognizable to read.
 
 **Output:**
 
-I'm not going to get into the output from "`print(key_dict_)I`" ... You may want to investigate that yourself.  I'm gong to focus on the actual key output and the printout of the key in hex.  (The comments in the script point to the function of the commands. )
+I'm not going to get into the output from "`print(key_dict_)I`" ... You may want to investigate that yourself.  I'm gong to focus on the actual key output and the printout of the key in hex.  (The comments in the script point to the function of the commands.)
 
 ```bash
 AES256 Key:
