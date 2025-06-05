@@ -14,7 +14,7 @@ In working through the HTB box _Archetype_, I took a detour.
 
 The write-up and walkthrough were straightforward: dump credentials from SMB, connect to MSSQL with Impacket, enable `xp_cmdshell`, get a reverse shell, escalate to Administrator. Done.
 
-Initially, in the hack, you simply use `mssqlclient.py` to authenticate into the server, using the plain text password I found in the backup file.  The official Hack the Box writeup showed the help screen for mssqlclient.py.  One of the flags was `-aesKey`.  I thought I'd play around with the `-aesKey` flag.  After all, in the cyberworld, I'm far more likely to find such an encrypted key than a plain text password.  
+Initially, in the hack, you simply use `mssqlclient.py` to authenticate into the server, using the plain text password. I found it in the backup file.  The official Hack the Box writeup showed the help screen for mssqlclient.py.  One of the flags was `-aesKey`.  I thought I'd play around with the `-aesKey` flag.  After all, in the cyberworld, you're far more likely to find such an encrypted key than a plain text password.  
 
 ```bash
 python3 mssqlclient.py -aesKey [AES KEY HERE]
