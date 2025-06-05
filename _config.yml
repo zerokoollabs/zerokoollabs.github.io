@@ -1,7 +1,7 @@
 title: Zerokoollabs
 author: zerokoollabs
 description: Cybersecurity labs and detours
-theme: minima
+theme: jekyll-theme-hacker
 
 plugins:
   - jekyll-feed
