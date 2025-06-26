@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title: "HTB Archetype: From SMB Misconfig to SYSTEM Shell"
@@ -14,8 +15,6 @@ tags: [htb, impacket, smb, mssql, redteam, privilege-escalation, xp_cmdshell, ps
 **Date Completed:** 06/02/2025
 **IP Address:** 10.129.6.55
 **Flags Collected:** ✅ User | ✅ Root
-
----
 
 ## 📌 Summary
 
