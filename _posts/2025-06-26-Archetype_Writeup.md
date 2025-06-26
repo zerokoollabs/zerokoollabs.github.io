@@ -1,3 +1,11 @@
+---
+layout: post
+title: "HTB Archetype: From SMB Misconfig to SYSTEM Shell"
+date: 2025-06-25
+author: zerokoollabs
+tags: [htb, impacket, smb, mssql, redteam, privilege-escalation, xp_cmdshell, psexec]
+---
+
 # 🧠 HTB Write-Up: Archetype
 
 **Difficulty:** Tier 2  
