@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "HTB Archetype: From SMB Misconfig to SYSTEM Shell"
