@@ -221,9 +221,7 @@ Below is a breakdown of other such “backdoor” tools to give a clear idea of 
 
 Now, we have a shell as the administrator!  A simple `dir` from the Administrator Desktop, and we see root.txt and our flag.
 
-🏁 **### 🏁 Post-Root Wrap-Up
-
-🏁 **Archetype pawned.****
+🏁 **Archetype pawned.**
 
 ### 🔗 Attack Chain Summary
 
