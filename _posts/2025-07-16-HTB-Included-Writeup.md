@@ -1,17 +1,9 @@
 ---
-title: HTB: Included – Full Write-Up
-description: A step-by-step walkthrough of the Hack The Box "Included" machine, demonstrating LFI, TFTP shell upload, and LXD privilege escalation.
-tags:
-  - HackTheBox
-  - LFI
-  - TFTP
-  - ReverseShell
-  - LXD
-  - PrivilegeEscalation
-  - CTF
-  - Linux
-  - Pentesting
-  - Cybersecurity
+title: HTB Included — LFI to TFTP Shell and LXD Root Escalation
+description: A complete walkthrough of exploiting Local File Inclusion (LFI) to leak credentials, uploading a reverse shell via TFTP, and gaining root access through LXD container misconfiguration.
+tags: [HTB, LFI, TFTP, LXD, Privilege Escalation, Reverse Shell, Alpine, Penetration Testing, CTF, Linux]
+date: 2025-07-16
+author: zerokoollabs
 ---
 
 # HTB: Included – Full Write-Up
