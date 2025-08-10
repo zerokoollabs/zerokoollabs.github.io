@@ -33,10 +33,10 @@ date: 2025-08-09
 **Goal:** Discover reachable targets and IP mappings  
 **Tools/Methods:**  
 - `ping`, `traceroute` / `tracert`  
-- Host mapping: `echo "10.x.x.x planning.htb" >> /etc/hosts`  
+- Host mapping: `echo "10.x.x.x target.lab" >> /etc/hosts`  
 - ICMP sweep: `nmap -sn 10.10.10.0/24`  
 - VPN tunnel verification for HTB labs  
-**HTB tie-in:** Adding `planning.htb` to `/etc/hosts` before enumeration.
+**HTB tie-in:** Adding `target.lab` to `/etc/hosts` before enumeration.
 
 ---
 
@@ -47,7 +47,7 @@ date: 2025-08-09
 - Common port scan: `nmap -p 21,22,80,443,3306,5432 target`  
 - Banner grabbing: `nc target 22` or `curl -v telnet://target:port`  
 - Service probes: `nmap -sV target`  
-**HTB tie-in:** Seeing MySQL (3306) and PostgreSQL (5432) services on `planning.htb`.
+**HTB tie-in:** Seeing MySQL (3306) and PostgreSQL (5432) services on `target.lab`.
 
 ---
 
@@ -82,7 +82,7 @@ date: 2025-08-09
 - **Vulnerability scanning:** `wpscan`, `nikto`, `sqlmap`  
 - **CMS-specific:** XWiki, Grafana, WordPress  
 **HTB tie-in:**  
-- Finding `grafana.planning.htb` with `gobuster vhost`  
+- Finding `grafana.target.lab` with `gobuster vhost`  
 - Enumerating `/api/datasources` to find MySQL & PostgreSQL  
 
 ---
